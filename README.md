@@ -7,7 +7,7 @@ Invoke `forkbomb.sh` and grep the results: `cat log/*.log | grep -E 'DONE|FAIL'`
 
 Some env variables are needed to work:
 * `WCLI_TOKEN`: wanderio api token
-* `WAND_USER`: wanderio api user
+* `WCLI_USER`: wanderio api user
 
 Some env variables can be overrided:
 * `WCLI_MAXCLIENTS` (default 8): number of clients
