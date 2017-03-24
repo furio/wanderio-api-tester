@@ -1,0 +1,8 @@
+!.gitignore
+!.dockerignore
+Dockerfile
+startCompose.*
+startTest.sh
+
+.idea/**
+node_modules/**

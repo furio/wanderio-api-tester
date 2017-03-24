@@ -1,0 +1,11 @@
+version: '2'
+services:
+  code:
+    image: furio/node-wait-withdrivers:1.0.0
+    volumes:
+      # Directory on HD where to read api source codes
+      - ${SOURCE_DIR}:/opt/app
+    ports:
+      # Remote debugging
+      - "5858:5858"
+      - "5859:5859"

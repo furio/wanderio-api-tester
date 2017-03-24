@@ -1,0 +1,22 @@
+{
+  "name": "wanderio-api-tester",
+  "description": "Wanderio Api Load Tester [Search]",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Francesco Furiani",
+    "email": "francesco@furio.me"
+  },
+  "engines": {
+    "node": ">=6.9.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "*",
+    "moment": "*",
+	"request": "*",
+    "request-promise-native": "*"
+  }
+}
